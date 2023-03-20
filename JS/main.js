@@ -41,6 +41,57 @@ if(typed) {
     typeSpeed: 20,
     backSpeed: 30,
     backDelay: 400
-  })
-
+  });
 }
+
+
+// Scroll Section Active Link
+
+const sections = document.querySelectorAll('section[id]');
+
+function scrollActive() {
+  const scrollY = window.pageYOffset;
+
+  sections.forEach(section => {
+    const sectionHeight = section.offsetHeight;
+    const sectionTop = section.offsetTop - 50;
+
+    let sectionId = section.getAttribute('id');
+
+    if(scrollY > sectionTop && scrollY <sectionTop + sectionHeight) {
+      document.querySelector('.menu a[href *=' + sectionId + ']').classList.add('active-link');
+    } else {
+      document.querySelector('.menu a[href *=' + sectionId + ']').classList.remove('active-link');
+    }
+  })
+}
+
+
+window.addEventListener('scroll', scrollActive);
+
+
+// Scroll Resume
+
+const pages = document.querySelectorAll('.page');
+const resume = document.querySelector('.resume');
+
+function resumeActive() {
+  const scrollY = window.pageYOffset;
+
+  pages.forEach(page => {
+    const sectionHeight = page.offsetHeight;
+    const sectionTop = page.offsetTop;
+
+    let sectionId = page.getAttribute('id');
+
+    if(scrollY > sectionTop && scrollY <sectionTop + sectionHeight) {
+      document.querySelector('.resume_tabs a[href *=' + sectionId + ']').classList.add('current');
+    } else {
+      document.querySelector('.resume_tabs a[href *=' + sectionId + ']').classList.remove('current');
+    }
+
+
+  });
+}
+
+window.addEventListener('scroll', resumeActive);
