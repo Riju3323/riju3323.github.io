@@ -334,11 +334,10 @@ header .container {
 
 /* ======= About Section ======== */
 
-/* #abtimg {
-height: auto;
-width: auto;
-padding: 30px 50px;
-} */
+#abtimg { 
+  width: auto; 
+  max-height: 100%; 
+}
 
 .about_container {
   column-gap: 0;
@@ -385,5 +384,13 @@ about_info > div .text {
 @media screen and (max-width: 768px) {
   .about_container {
     grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+  }
+  .about_info {
+    justify-content: center;
+  }
+  .about_info > div .text {
+    font-size: 14px;
   }
 }
