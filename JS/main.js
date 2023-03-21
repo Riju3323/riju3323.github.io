@@ -80,7 +80,7 @@ function resumeActive() {
 
   pages.forEach(page => {
     const sectionHeight = page.offsetHeight;
-    const sectionTop = page.offsetTop;
+    const sectionTop = page.offsetTop - 120;
 
     let sectionId = page.getAttribute('id');
 
