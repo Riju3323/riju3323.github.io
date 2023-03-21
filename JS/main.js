@@ -95,3 +95,54 @@ function resumeActive() {
 }
 
 window.addEventListener('scroll', resumeActive);
+
+
+// ========= Portfolio Section =========
+
+let filterItems = document.querySelectorAll('.portfolio_filters li');
+
+function activePortfolio() {
+  filterItems.forEach(el => {
+    el.classList.remove('filter-active');
+    this.classList.add('filter-active');
+  })
+}
+
+filterItems.forEach(el => {
+  el.addEventListener('click', activePortfolio);
+})
+
+
+//Mixitup Filter Portfolio 
+
+let mixerPortfolio = mixitup('.portfolio_wrap-container', {
+  selectors: {
+    target: '.portfolio_item'
+  },
+  animation: {
+    duration: 300
+  }
+})
+
+// Testimonial Section
+
+let swiper = new Swiper(".mySwiper", {
+  effect: 'slide',
+  loop: 'true',
+  slidesPerView: 1,
+  grabCursor: true,
+  spaceBetween: 100,
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    }
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "progressbar",
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

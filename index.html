@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riju's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <script src="https://kit.fontawesome.com/27cd1d0ac6.js" crossorigin="anonymous"></script>
   </head>
@@ -12,7 +13,7 @@
     <header id="header">
       <div class="container">
         <a href="#" class="logo">
-          <img src="Images/diamond-g6f6ff58f7_640.png" class="logo_im img-fluid" alt="logo" />
+          <img src="Images/hud-g68ee141c0_640.png" class="logo_im img-fluid" alt="logo" />
         </a>
         <ul class="menu">
           <li class="menu_item">
@@ -26,9 +27,6 @@
           </li>
           <li class="menu_item">
             <a href="#portfolio" class="menu_link">Portfolio</a>
-          </li>
-          <li class="menu_item">
-            <a href="#services" class="menu_link">Service</a>
           </li>
           <li class="menu_item">
             <a href="#contact" class="menu_link">Contact</a>
@@ -358,9 +356,98 @@
           </div>
         </div>
       </section>
+      <!-- =========== Testimonials Section ============ -->
+      <section class="testimonial section">
+        <h2 class="section_title">Testimonial</h2>
+        <div class="testimonial_container container swiper mySwiper">
+          <div class=" swiper-wrapper">
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="img_name">
+                <img src="Images/laptop-g6755ce348_640.png" alt="">
+                <span class="name">Linus Torvalds</span>
+                <span class="post">Clients</span>
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="img_name">
+                <img src="Images/laptop-g6755ce348_640.png" alt="">
+                <span class="name">Linus Torvalds</span>
+                <span class="post">Clients</>
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="img_name">
+                <img src="Images/laptop-g6755ce348_640.png" alt="">
+                <span class="name">Linus Torvalds</span>
+                <span class="post">Clients</>
+              </div>
+            </div>
+            <div class="testimonial_item swiper-slide">
+              <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="img_name">
+                <img src="Images/laptop-g6755ce348_640.png" alt="">
+                <span class="name">Linus Torvalds</span>
+                <span class="post">Clients</>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <!-- =========== Contact Section ============ -->
+      <section class="contant section" id="contact">
+        <h2 class="section_title">Contact Details</h2>
+        <div class="contact_container container">
+          <div class="contact_content">
+            <div class="inputs">
+              <input type="text" placeholder="Name">
+              <input type="text" placeholder="Email">
+            </div>
+            <input type="password" placeholder="Password">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <a href="#" class="btn">Send Message
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- =========== Footer ============ -->
+      <footer>
+        <div class="footer_bg">
+          <div class="footer_container container">
+            <div class="main_footer">
+              <div class="footer_social">
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              </div>
+              <h3>LineCode</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="footer_copy">&#169; LineCode. All rights reserved</div>
+          </div>
+        </div>
+      </footer>
+
+
 
     </main>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Mixitup JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <!-- Boxicon JS -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <!-- Type JS -->
     <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
     <!-- Ionicons Icons -->
