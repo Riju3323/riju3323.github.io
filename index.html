@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./CSS/style.css" />
     <script src="https://kit.fontawesome.com/27cd1d0ac6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
   <body>
     <header id="header">
@@ -23,10 +24,13 @@
             <a href="#about" class="menu_link">About</a>
           </li>
           <li class="menu_item">
-            <a href="#resume" class="menu_link">Resume</a>
-          </li>
+            <a href="#skills" class="menu_link">Skills</a>
+          </li>   
           <li class="menu_item">
             <a href="#portfolio" class="menu_link">Portfolio</a>
+          </li>
+          <li class="menu_item">
+            <a href="#resume" class="menu_link">Resume</a>
           </li>
           <li class="menu_item">
             <a href="#contact" class="menu_link">Contact</a>
@@ -86,181 +90,160 @@
           </div>
         </div>
       </section>
-      <!-- =========== Resume Section ============ -->
-      <section class="resume section" id="resume">
-        <h2 class="section_title">Resume</h2>
-        <div class="resume_container container grid">
-          <div class="resume_tabs">
-            <ul>
-              <li>
-                <a href="#page-1" class="current">Education</a>
-              </li>
-              <li>
-                <a href="#page-2">Experience</a>
-              </li>
-              <li>
-                <a href="#page-3">Skills</a>
-              </li>
-              <li>
-                <a href="#page-4">Awards</a>
-              </li>
-            </ul>
-          </div>
-          <div class="resume_content">
-            <div id="page-1" class="page one">
-              <div class="page_heading">Education</div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Bachelor in Petroleum Engineering</h4>
-                <span class="position">IIT(ISM) Dhanbad</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <!-- =========== skills Section ============ -->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">skills</h2>
+        <div class="skills_container container">
+          <h6 class="xs-font mb-0">My Technology Stack</h6>
+            <h3 class="section-title mb-4">Expertises</h3>
+            <br>
+            <h5 class="components-section-title font-weight-normal">Programming Languages</h5>
+            <hr style="border-color:#3E918E;background-color:#3E918E;">
+            <div class="row" style="color: #45a29e;">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.python.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/python.png"
+                            alt="">
+                        <h6 class="text-left techtext">Python</h6>
+                    </a>
                 </div>
-              </div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Bachelor in Petroleum Engineering</h4>
-                <span class="position">IIT(ISM) Dhanbad</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.cplusplus.com/doc/tutorial/)" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/cpp.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;C/C++</h6>
+                    </a>
                 </div>
-              </div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Bachelor in Petroleum Engineering</h4>
-                <span class="position">IIT(ISM) Dhanbad</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.java.com/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/java.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;Java</h6>
+                    </a>
                 </div>
-              </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.mathworks.com/products/matlab.html" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/matlab.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;MATLAB</h6>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.javascript.com/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/javascript.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;JavaScript</h6>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.rust-lang.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/rust.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;Rust</h6>                       
+                    </a>
+                </div>
             </div>
-            <div id="page-2" class="page two">
-              <div class="page_heading">Experience</div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>SDE Developer</h4>
-                <span class="position">XYZ Company</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <br><br>
+            <h5 class="components-section-title font-weight-normal">Libraries</h5>
+            <hr style="border-color:#3E918E;background-color:#3E918E;">
+            <div class="row text-left" style="color: #45a29e;">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
+                    <a href="https://pandas.pydata.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/pandas.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;Pandas</h6>                       
+                    </a>
                 </div>
-              </div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>SDE Developer</h4>
-                <span class="position">XYZ Company</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
+                    <a href="https://numpy.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/numpy.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;NumPy</h6>                       
+                    </a>
                 </div>
-              </div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>SDE Developer</h4>
-                <span class="position">XYZ Company</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
+                    <a href="https://scipy.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/scipy.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;SciPy</h6>                       
+                    </a>
                 </div>
-              </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
+                    <a href="https://scikit-learn.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/scikitlearn.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;Scikit-Learn</h6>                       
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
+                    <a href="https://matplotlib.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/matplotlib.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;Matplotlib</h6>                       
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
+                    <a href="https://seaborn.pydata.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/seaborn.png"
+                            alt="">
+                        <h6 class="text-left">&ensp;Seaborn</h6>
+                    </a>
+                </div>
             </div>
-            <div id="page-3" class="page three">
-              <div class="page_heading">Skills</div>
-              <div class="progressBoxs grid">
-                <div class="progressBox">
-                  <div class="progress_name">
-                    <span>HTML</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                      <div class="progress_bar" style="width: 90%;"></div>
-                  </div>
+            <br><br>
+            <h5 class="components-section-title font-weight-normal">Frameworks</h5>
+            <hr style="border-color:#3E918E;background-color:#3E918E;">
+            <div class="row text-left" style="color: #45a29e;">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://pytorch.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/pytorch.png"
+                            alt="">
+                        <h6 class="text-left">&ensp; PyTorch</h6>
+                    </a>
                 </div>
-                <div class="progressBox">
-                  <div class="progress_name">
-                    <span>HTML</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress_bar" style="width: 90%;"></div>
-                  </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.pytorchlightning.ai/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/pytorch-light.png"
+                            alt="">
+                        <h6 class="text-left">&ensp; PyTorch-Lightning</h6>
+                    </a>
                 </div>
-                <div class="progressBox">
-                  <div class="progress_name">
-                    <span>HTML</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress_bar" style="width: 90%;"></div>
-                  </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.tensorflow.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/tensorflow.png"
+                            alt="">
+                        <h6 class="text-left">&ensp; TensorFlow</h6>
+                    </a>
                 </div>
-                <div class="progressBox">
-                  <div class="progress_name">
-                    <span>HTML</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress_bar" style="width: 90%;"></div>
-                  </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://keras.io/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/keras.png"
+                            alt="">
+                        <h6 class="text-left">&ensp; Keras</h6>
+                    </a>
                 </div>
-                <div class="progressBox">
-                  <div class="progress_name">
-                    <span>HTML</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress_bar" style="width: 90%;"></div>
-                  </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/bootstrap.png"
+                            alt="">
+                        <h6 class="text-left">&ensp; Bootstrap 5</h6>
+                    </a>
                 </div>
-                <div class="progressBox">
-                  <div class="progress_name">
-                    <span>HTML</span>
-                    <span>90%</span>
-                  </div>
-                  <div class="progress">
-                    <div class="progress_bar" style="width: 90%;"></div>
-                  </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://nodejs.org/en/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/node.png"
+                            alt="">
+                        <h6 class="text-left">&ensp; Node.js</h6>                       
+                    </a>
                 </div>
-              </div>
-            </div>
-            <div id="page-4" class="page four">
-              <div class="page_heading">Awards</div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon">
-                  <ion-icon name="medal-outline"></ion-icon>
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://reactjs.org/" class="icon-box border-0 text-left">
+                        <img class="tech-icon" src="assets/imgs/react.png"
+                            alt="">
+                        <h6 class="text-left">&ensp; ReactJS</h6>
+                    </a>
                 </div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Nobel Award</h4>
-                <span class="position">Physics</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-              </div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon">
-                  <ion-icon name="medal-outline"></ion-icon>
-                </div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Nobel Award</h4>
-                <span class="position">Physics</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-              </div>
-              <div class="resume_wrap">
-                <div class="resume_wrap-icon">
-                  <ion-icon name="medal-outline"></ion-icon>
-                </div>
-                <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Nobel Award</h4>
-                <span class="position">Physics</span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                </div>
-              </div>
             </div>
         </div>
       </section>
@@ -356,51 +339,182 @@
           </div>
         </div>
       </section>
-      <!-- =========== Testimonials Section ============ -->
-      <section class="testimonial section">
-        <h2 class="section_title">Testimonial</h2>
-        <div class="testimonial_container container swiper mySwiper">
-          <div class=" swiper-wrapper">
-            <div class="testimonial_item swiper-slide">
-              <i class='bx bxs-quote-alt-left'></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="img_name">
-                <img src="Images/laptop-g6755ce348_640.png" alt="">
-                <span class="name">Linus Torvalds</span>
-                <span class="post">Clients</span>
-              </div>
-            </div>
-            <div class="testimonial_item swiper-slide">
-              <i class='bx bxs-quote-alt-left'></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="img_name">
-                <img src="Images/laptop-g6755ce348_640.png" alt="">
-                <span class="name">Linus Torvalds</span>
-                <span class="post">Clients</>
-              </div>
-            </div>
-            <div class="testimonial_item swiper-slide">
-              <i class='bx bxs-quote-alt-left'></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="img_name">
-                <img src="Images/laptop-g6755ce348_640.png" alt="">
-                <span class="name">Linus Torvalds</span>
-                <span class="post">Clients</>
-              </div>
-            </div>
-            <div class="testimonial_item swiper-slide">
-              <i class='bx bxs-quote-alt-left'></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="img_name">
-                <img src="Images/laptop-g6755ce348_640.png" alt="">
-                <span class="name">Linus Torvalds</span>
-                <span class="post">Clients</>
-              </div>
-            </div>
+      <!-- =========== Resume Section ============ -->
+      <section class="resume section" id="resume">
+        <h2 class="section_title">Resume</h2>
+        <div class="resume_container container grid">
+          <div class="resume_tabs">
+            <ul>
+              <li>
+                <a href="#page-1" class="current">Education</a>
+              </li>
+              <li>
+                <a href="#page-2">Experience</a>
+              </li>
+              <!-- <li>
+                <a href="#page-3">Skills</a>
+              </li> -->
+              <li>
+                <a href="#page-4">Awards</a>
+              </li>
+            </ul>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
+          <div class="resume_content">
+            <div id="page-1" class="page one">
+              <div class="page_heading">Education</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>Bachelor in Petroleum Engineering</h4>
+                <span class="position">IIT(ISM) Dhanbad</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>Bachelor in Petroleum Engineering</h4>
+                <span class="position">IIT(ISM) Dhanbad</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>Bachelor in Petroleum Engineering</h4>
+                <span class="position">IIT(ISM) Dhanbad</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+            </div>
+            <div id="page-2" class="page two">
+              <div class="page_heading">Experience</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>SDE Developer</h4>
+                <span class="position">XYZ Company</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>SDE Developer</h4>
+                <span class="position">XYZ Company</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>SDE Developer</h4>
+                <span class="position">XYZ Company</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div id="page-3" class="page three">
+              <div class="page_heading">Skills</div>
+              <div class="progressBoxs grid">
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                      <div class="progress_bar" style="width: 90%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%;"></div>
+                  </div>
+                </div>
+                <div class="progressBox">
+                  <div class="progress_name">
+                    <span>HTML</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress_bar" style="width: 90%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <div id="page-4" class="page four">
+              <div class="page_heading">Awards</div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <ion-icon name="medal-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>Nobel Award</h4>
+                <span class="position">Physics</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <ion-icon name="medal-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>Nobel Award</h4>
+                <span class="position">Physics</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+              <div class="resume_wrap">
+                <div class="resume_wrap-icon">
+                  <ion-icon name="medal-outline"></ion-icon>
+                </div>
+                <div class="resume_wrap-content">
+                <span class="date">Lorem Ipsum</span>
+                <h4>Nobel Award</h4>
+                <span class="position">Physics</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                </div>
+              </div>
+            </div>
         </div>
       </section>
       <!-- =========== Contact Section ============ -->
@@ -455,5 +569,94 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!-- Main Body Script -->
     <script src="JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Testimonial Temp -->
+
+              <!-- <i class='bx bxs-quote-alt-left'></i>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="img_name">
+                <img src="Images/laptop-g6755ce348_640.png" alt="">
+                <span class="name">Linus Torvalds</span>
+                <span class="post">Clients</>
+              </div> -->
+
+          <!-- <div class=" swiper-wrapper">
+            <div class="skills_item swiper-slide prog_lang">
+              <div class="prof_lang skillcont">
+                <img src="Images/Icons/html.svg" alt="" class="sklii">
+              </div>
+            </div>
+            <div class="skills_item swiper-slide libraries">
+              <div class="libraries skillcont"></div>
+            </div>
+            <div class="skills_item swiper-slide frameworks">
+              <div class="frameworks skillcont"></div>
+            </div>
+            <div class="skills_item swiper-slide others">
+              <div class="others skillcont"></div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div> -->

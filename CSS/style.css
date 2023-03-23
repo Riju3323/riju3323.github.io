@@ -23,9 +23,9 @@ html  {
   border-radius: 10px;
 }
 :root {
-  --main-color: #001d6bea;
-  --seconde-color: #ffe0c3ea;
-  --title-color: #222;
+  --main-color: #1685cfea;
+  --seconde-color: #636161ea;
+  --title-color: #090625;
   --subtitle-color: #8d8d8d;
 }
 body {
@@ -701,9 +701,9 @@ about_info > div .text {
   }
 }
 
-/* ======= Testimonial Section ======= */
+/* ======= skills Section ======= */
 
-.testimonial_item {
+.skills_item {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -712,33 +712,34 @@ about_info > div .text {
   user-select: none;
 }
 
-.testimonial_item i {
+.skills_item i {
   margin-bottom: 20px;
   font-size: 32px;
   color: var(--main-color);
 }
 
-.img_name {
-  margin-top: 20px;
+.skill_cont {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  user-select: none;
 }
 
-.img_name img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-bottom: 20px;
-  object-fit: cover;
+.tech-icon {
+  width: 5vh;
+  height: auto;
 }
 
-.img_name .name {
-  font-weight: 600;
+.techii {
+  display: flex;
+  justify-content: center;
 }
 
-.img_name .post {
-  color: #777;
+.techtext {
+  padding-left: 2vh;
+  padding-top: 1vh;
 }
 
 

@@ -124,25 +124,25 @@ let mixerPortfolio = mixitup('.portfolio_wrap-container', {
   }
 })
 
-// Testimonial Section
+// Skill Section
 
-let swiper = new Swiper(".mySwiper", {
-  effect: 'slide',
-  loop: 'true',
-  slidesPerView: 1,
-  grabCursor: true,
-  spaceBetween: 100,
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
-    }
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    type: "progressbar",
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+// let swiper = new Swiper(".mySwiper", {
+//   effect: 'slide',
+//   loop: 'true',
+//   slidesPerView: 1,
+//   grabCursor: true,
+//   spaceBetween: 100,
+//   breakpoints: {
+//     768: {
+//       slidesPerView: 1,
+//     }
+//   },
+//   pagination: {
+//     el: ".swiper-pagination",
+//     type: "progressbar",
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
