@@ -688,11 +688,15 @@ about_info > div .text {
   transform: scale(0);
   transition: 0.4s;
   color: #333;
+  text-align: center;
+  font-size: 1vw;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
-.proinfo {
+/* .proinfo {
   text-align: center;
-}
+} */
 
 .portfolio_wrap:hover .portfolio_info {
   transform: scale(1);
