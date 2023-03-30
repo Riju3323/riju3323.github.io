@@ -59,9 +59,9 @@ function scrollActive() {
     let sectionId = section.getAttribute('id');
 
     if(scrollY > sectionTop && scrollY <sectionTop + sectionHeight) {
-      document.querySelector('.menu a[href *=' + sectionId + ']').classList.add('active-link');
+      document.querySelector('.menu a[href *=' + sectionId + ']').classList.add('active_link');
     } else {
-      document.querySelector('.menu a[href *=' + sectionId + ']').classList.remove('active-link');
+      document.querySelector('.menu a[href *=' + sectionId + ']').classList.remove('active_link');
     }
   })
 }
@@ -115,7 +115,7 @@ filterItems.forEach(el => {
 
 //Mixitup Filter Portfolio 
 
-let mixerPortfolio = mixitup('.portfolio_wrap-container', {
+let mixerPortfolio = mixitup('.portfolio_wrap-containerr', {
   selectors: {
     target: '.portfolio_item'
   },

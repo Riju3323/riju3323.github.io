@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riju's Portfolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <script src="https://kit.fontawesome.com/27cd1d0ac6.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/27cd1d0ac6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
     <header id="header">
-      <div class="container">
+      <div class="containerr">
         <a href="#" class="logo">
           <img src="Images/hud-g68ee141c0_640.png" class="logo_im img-fluid" alt="logo" />
         </a>
         <ul class="menu">
           <li class="menu_item">
-            <a href="#hero" class="menu_link active-link">Home</a>
+            <a href="#hero" class="menu_link active_link">Home</a>
           </li>
           <li class="menu_item">
             <a href="#about" class="menu_link">About</a>
@@ -32,32 +32,30 @@
           <li class="menu_item">
             <a href="#resume" class="menu_link">Resume</a>
           </li>
-          <li class="menu_item">
+          <!-- <li class="menu_item">
             <a href="#contact" class="menu_link">Contact</a>
-          </li>
+          </li> -->
           <ion-icon name="close-outline" class="close_icon"></ion-icon>
         </ul>
         <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
       </div>
     </header>
-
     <main>
       <!-- =========== Hero Section ============ -->
       <section class="hero section" id="hero">
-        <div class="hero_container container grid">
+        <div class="hero_containerr containerr grid">
           <div class="hero_content">
             <h4>Hi, There!</h4>
             <h1>I'm Riju <br /></h1>
-            <h4><span class="typed" data-typed-items="Data Science, Machine Learning, Deep Learning, Web Developement, Content Writer, Petroleum Engineering,"></span></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper nulla massa, eu pulvinar nisl tincidunt vel. Proin eleifend tellus quis finibus vestibulum.</p>
             <div class="hero_social">
-              <a href="#"><i class="fa-brands fa-github"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fa-brands fa-kaggle"></i></a>
+              <a href="https://github.com/Riju3323" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/rijurekh-halder-2b5184204/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.kaggle.com/rijurekh" target="_blank"><i class="fa-brands fa-kaggle"></i></a>
             </div>
-            <a href="#contact" class="btn">
-              Read More
-              <ion-icon name="arrow-forward-outline"></ion-icon>
+            <a href="#" class="btn">
+              Welcome
+              <!-- <ion-icon name="arrow-forward-outline"></ion-icon> -->
             </a>
           </div>
           <div class="hero_img">
@@ -68,24 +66,27 @@
       <!-- =========== About Section ============ -->
       <section class="about section" id="about">
         <h2 class="section_title">About Me</h2>
-        <div class="about_container container grid">
+        <div class="about_containerr containerr grid">
           <div class="about_img">
             <img src="Images/laptop-g6755ce348_640.png" alt="" id="abtimg" />
           </div>
           <div class="about_content">
-            <h1>I do ML</h1>
+            <div class="abt_type">
+              <h1 id="">I do &nbsp</h1>
+              <h4 id="movie"><span class="typed" data-typed-items="Data Science, Machine Learning, Deep Learning, Web Developement, Content Writer, Petroleum Engineering,"></span></h4>
+            </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac lacus vitae lorem commodo bibendum sed ut eros. Nulla efficitur convallis faucibus. Aliquam accumsan tempor condimentum. Proin egestas vitae erat et cursus. In convallis semper gravida. Integer eleifend est mauris, ac luctus libero imperdiet faucibus.</p>
             <div class="about_info">
               <div>
+                <span class="number">20+</span>
+                <br>
+                <span class="text">Projects Made</span>
+              </div>
+              <!-- <div>
                 <span class="number">20</span>
                 <br>
                 <span class="text">Lorem Ipsum</span>
-              </div>
-              <div>
-                <span class="number">20</span>
-                <br>
-                <span class="text">Lorem Ipsum</span>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -93,101 +94,100 @@
       <!-- =========== skills Section ============ -->
       <section class="skills section" id="skills">
         <h2 class="section_title">skills</h2>
-        <div class="skills_container container">
+        <div class="skills_containerr containerr">
           <h6 class="xs-font mb-0">My Technology Stack</h6>
             <h3 class="section-title mb-4">Expertises</h3>
             <br>
             <h5 class="components-section-title font-weight-normal">Programming Languages</h5>
             <hr style="border-color:#3E918E;background-color:#3E918E;">
             <div class="row" style="color: #45a29e;">
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
                     <a href="https://www.python.org/" class="icon-box border-0 text-left techii">
                         <img class="tech-icon" src="Images/Icons/python.png"
                             alt="">
                         <h6 class="text-left techtext">Python</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://www.cplusplus.com/doc/tutorial/)" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/cpp.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://www.cplusplus.com/doc/tutorial/)" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/cpp.png"
                             alt="">
-                        <h6 class="text-left">&ensp;C/C++</h6>
+                        <h6 class="text-left techtext"> C/C++</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://www.java.com/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/java.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://www.java.com/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/java.png"
                             alt="">
-                        <h6 class="text-left">&ensp;Java</h6>
+                        <h6 class="text-left techtext"> Java</h6>
                     </a>
                 </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://www.mathworks.com/products/matlab.html" class="icon-box border-0 text-left">
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.mathworks.com/products/matlab.html" class="icon-box border-0 text-left techii">
                         <img class="tech-icon" src="assets/imgs/matlab.png"
                             alt="">
-                        <h6 class="text-left">&ensp;MATLAB</h6>
+                        <h6 class="text-left techtext">&ensp;MATLAB</h6>
                     </a>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://www.javascript.com/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/javascript.png"
+                </div> -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://www.javascript.com/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/javascript.png"
                             alt="">
-                        <h6 class="text-left">&ensp;JavaScript</h6>
+                        <h6 class="text-left techtext"> JavaScript</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://www.rust-lang.org/" class="icon-box border-0 text-left">
+                <!-- <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
+                    <a href="https://www.rust-lang.org/" class="icon-box border-0 text-left techii">
                         <img class="tech-icon" src="assets/imgs/rust.png"
                             alt="">
-                        <h6 class="text-left">&ensp;Rust</h6>                       
+                        <h6 class="text-left techtext">&ensp;Rust</h6>                       
                     </a>
-                </div>
+                </div> -->
             </div>
             <br><br>
             <h5 class="components-section-title font-weight-normal">Libraries</h5>
             <hr style="border-color:#3E918E;background-color:#3E918E;">
             <div class="row text-left" style="color: #45a29e;">
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
-                    <a href="https://pandas.pydata.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/pandas.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://pandas.pydata.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/pandas.png"
                             alt="">
-                        <h6 class="text-left">&ensp;Pandas</h6>                       
+                        <h6 class="text-left techtext"> Pandas</h6>                       
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
-                    <a href="https://numpy.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/numpy.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://numpy.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/numpy.png"
                             alt="">
-                        <h6 class="text-left">&ensp;NumPy</h6>                       
+                        <h6 class="text-left techtext"> NumPy</h6>                       
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
-                    <a href="https://scipy.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/scipy.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://scipy.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/scipy.png"
                             alt="">
-                        <h6 class="text-left">&ensp;SciPy</h6>                       
+                        <h6 class="text-left techtext"> SciPy</h6>                       
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
-                    <a href="https://scikit-learn.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/scikitlearn.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://scikit-learn.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/scikitlearn.png"
                             alt="">
-                        <h6 class="text-left">&ensp;Scikit-Learn</h6>                       
+                        <h6 class="text-left techtext"> Scikit-Learn</h6>                       
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
-                    <a href="https://matplotlib.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/matplotlib.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://matplotlib.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/matplotlib.png"
                             alt="">
-                        <h6 class="text-left">&ensp;Matplotlib</h6>                       
+                        <h6 class="text-left techtext"> Matplotlib</h6>                       
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 ">
-                    <a href="https://seaborn.pydata.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/seaborn.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://seaborn.pydata.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/seaborn.png"
                             alt="">
-                        <h6 class="text-left">&ensp;Seaborn</h6>
+                        <h6 class="text-left techtext"> Seaborn</h6>
                     </a>
                 </div>
             </div>
@@ -195,53 +195,53 @@
             <h5 class="components-section-title font-weight-normal">Frameworks</h5>
             <hr style="border-color:#3E918E;background-color:#3E918E;">
             <div class="row text-left" style="color: #45a29e;">
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://pytorch.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/pytorch.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://pytorch.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/pytorch.png"
                             alt="">
-                        <h6 class="text-left">&ensp; PyTorch</h6>
+                        <h6 class="text-left techtext"> PyTorch</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://www.pytorchlightning.ai/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/pytorch-light.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://www.pytorchlightning.ai/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/pytorch-light.png"
                             alt="">
-                        <h6 class="text-left">&ensp; PyTorch-Lightning</h6>
+                        <h6 class="text-left techtext"> PyTorch-Lightning</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://www.tensorflow.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/tensorflow.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://www.tensorflow.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/tensorflow.png"
                             alt="">
-                        <h6 class="text-left">&ensp; TensorFlow</h6>
+                        <h6 class="text-left techtext"> TensorFlow</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://keras.io/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/keras.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://keras.io/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/keras.png"
                             alt="">
-                        <h6 class="text-left">&ensp; Keras</h6>
+                        <h6 class="text-left techtext"> Keras</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/bootstrap.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/bootstrap.png"
                             alt="">
-                        <h6 class="text-left">&ensp; Bootstrap 5</h6>
+                        <h6 class="text-left techtext"> Bootstrap 5</h6>
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://nodejs.org/en/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/node.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://nodejs.org/en/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/node.png"
                             alt="">
-                        <h6 class="text-left">&ensp; Node.js</h6>                       
+                        <h6 class="text-left techtext"> Node.js</h6>                       
                     </a>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0">
-                    <a href="https://reactjs.org/" class="icon-box border-0 text-left">
-                        <img class="tech-icon" src="assets/imgs/react.png"
+                <div class="col-lg-3 col-md-4 col-sm-6 mt-4 mt-md-0 icotex">
+                    <a href="https://reactjs.org/" class="icon-box border-0 text-left techii">
+                        <img class="tech-icon" src="Images/Icons/react.png"
                             alt="">
-                        <h6 class="text-left">&ensp; ReactJS</h6>
+                        <h6 class="text-left techtext"> ReactJS</h6>
                     </a>
                 </div>
             </div>
@@ -250,20 +250,60 @@
       <!-- =========== Portfolio Section ============ -->
       <section class="portfolio section" id="portfolio">
         <h2 class="section_title">Portfolio</h2>
-        <div class="portfolio_container container">
+        <div class="portfolio_containerr containerr">
           <ul class="portfolio_filters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-ml_dl">ML/DL</li>
+            <li data-filter=".filter-web">Web Dev</li>
+            <li data-filter=".filter-d_a">Data Analytics</li>
+            <li data-filter=".filter-others">Others</li>
           </ul>
-          <div class="portfolio_wrap-container">
+          <div class="portfolio_wrap-containerr">
+            <div class="portfolio_item filter-ml_dl">
+              <div class="portfolio_wrap">
+                <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>ml_dl 1</h4>
+                  <p>ml_dl</p>
+                  <div class="portfolio_links">
+                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio_item filter-ml_dl">
+              <div class="portfolio_wrap">
+                <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>ml_dl 2</h4>
+                  <p>ml_dl</p>
+                  <div class="portfolio_links">
+                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="portfolio_item filter-ml_dl">
+              <div class="portfolio_wrap">
+                <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
+                <div class="portfolio_info">
+                  <h4>ml_dl 3</h4>
+                  <p>ml_dl</p>
+                  <div class="portfolio_links">
+                    <a href="#"><ion-icon name="add-outline"></ion-icon></a>
+                    <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div class="portfolio_item filter-web">
               <div class="portfolio_wrap">
                 <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
                 <div class="portfolio_info">
-                  <h4>Web 3</h4>
-                  <p>Web</p>
+                  <h4>web 1</h4>
+                  <p>web</p>
                   <div class="portfolio_links">
                     <a href="#"><ion-icon name="add-outline"></ion-icon></a>
                     <a href="#"><ion-icon name="link-outline"></ion-icon></a>
@@ -271,12 +311,12 @@
                 </div>
               </div>
             </div>
-            <div class="portfolio_item filter-app">
+            <div class="portfolio_item filter-web">
               <div class="portfolio_wrap">
                 <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
                 <div class="portfolio_info">
-                  <h4>App 1</h4>
-                  <p>App</p>
+                  <h4>web 2</h4>
+                  <p>web</p>
                   <div class="portfolio_links">
                     <a href="#"><ion-icon name="add-outline"></ion-icon></a>
                     <a href="#"><ion-icon name="link-outline"></ion-icon></a>
@@ -284,12 +324,12 @@
                 </div>
               </div>
             </div>
-            <div class="portfolio_item filter-app">
+            <div class="portfolio_item filter-d_a">
               <div class="portfolio_wrap">
                 <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
                 <div class="portfolio_info">
-                  <h4>App 2</h4>
-                  <p>App</p>
+                  <h4>Excel</h4>
+                  <p>Data_Analysis</p>
                   <div class="portfolio_links">
                     <a href="#"><ion-icon name="add-outline"></ion-icon></a>
                     <a href="#"><ion-icon name="link-outline"></ion-icon></a>
@@ -297,12 +337,12 @@
                 </div>
               </div>
             </div>
-            <div class="portfolio_item filter-card">
+            <div class="portfolio_item filter-d_a">
               <div class="portfolio_wrap">
                 <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
                 <div class="portfolio_info">
-                  <h4>Card 1</h4>
-                  <p>Card</p>
+                  <h4>Tableaue</h4>
+                  <p>Data_Analysis</p>
                   <div class="portfolio_links">
                     <a href="#"><ion-icon name="add-outline"></ion-icon></a>
                     <a href="#"><ion-icon name="link-outline"></ion-icon></a>
@@ -310,12 +350,13 @@
                 </div>
               </div>
             </div>
-            <div class="portfolio_item filter-card">
+            <div class="portfolio_item filter-others">
               <div class="portfolio_wrap">
                 <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
                 <div class="portfolio_info">
-                  <h4>Card 2</h4>
-                  <p>Card</p>
+                  <h4>Abstract</h4>
+                  <p>UPES Shell Innovation Challenge</p>
+                  <p class="proinfo">Presentation on how advent of ML/AI will revolutionize the Oil and Gas Industry</p>
                   <div class="portfolio_links">
                     <a href="#"><ion-icon name="add-outline"></ion-icon></a>
                     <a href="#"><ion-icon name="link-outline"></ion-icon></a>
@@ -323,12 +364,13 @@
                 </div>
               </div>
             </div>
-            <div class="portfolio_item filter-app">
+            <div class="portfolio_item filter-others">
               <div class="portfolio_wrap">
                 <img src="Images/laptop-g6755ce348_640.png" alt="" class="img-fluid">
                 <div class="portfolio_info">
-                  <h4>App 3</h4>
-                  <p>App</p>
+                  <h4>Abstract</h4>
+                  <p>Energy Revolution 2040</p>
+                  <p class="proinfo">Presentation on how the global energy scenario will look like by the year 2040</p>
                   <div class="portfolio_links">
                     <a href="#"><ion-icon name="add-outline"></ion-icon></a>
                     <a href="#"><ion-icon name="link-outline"></ion-icon></a>
@@ -342,7 +384,7 @@
       <!-- =========== Resume Section ============ -->
       <section class="resume section" id="resume">
         <h2 class="section_title">Resume</h2>
-        <div class="resume_container container grid">
+        <div class="resume_containerr containerr grid">
           <div class="resume_tabs">
             <ul>
               <li>
@@ -375,8 +417,8 @@
                 <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
                 <div class="resume_wrap-content">
                 <span class="date">Lorem Ipsum</span>
-                <h4>Bachelor in Petroleum Engineering</h4>
-                <span class="position">IIT(ISM) Dhanbad</span>
+                <h4>12th</h4>
+                <span class="position">DPS Ruby Park, Kolkata</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
@@ -384,8 +426,8 @@
                 <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
                 <div class="resume_wrap-content">
                 <span class="date">Lorem Ipsum</span>
-                <h4>Bachelor in Petroleum Engineering</h4>
-                <span class="position">IIT(ISM) Dhanbad</span>
+                <h4>10th</h4>
+                <span class="position">Patha Bhavan High School, Kolkata</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
@@ -396,8 +438,8 @@
                 <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
                 <div class="resume_wrap-content">
                 <span class="date">Lorem Ipsum</span>
-                <h4>SDE Developer</h4>
-                <span class="position">XYZ Company</span>
+                <h4>Summer Trainee</h4>
+                <span class="position">ONGC Ankleshwar Asset, Gujarat,India</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
@@ -405,8 +447,8 @@
                 <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
                 <div class="resume_wrap-content">
                 <span class="date">Lorem Ipsum</span>
-                <h4>SDE Developer</h4>
-                <span class="position">XYZ Company</span>
+                <h4>Scribe</h4>
+                <span class="position">SPE Internation Summit</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
@@ -414,8 +456,8 @@
                 <div class="resume_wrap-icon"><ion-icon name="school-outline"></ion-icon></div>
                 <div class="resume_wrap-content">
                 <span class="date">Lorem Ipsum</span>
-                <h4>SDE Developer</h4>
-                <span class="position">XYZ Company</span>
+                <h4>Head (Content-Writing and Moderation)</h4>
+                <span class="position">SPE IIT(ISM) Dhanbad</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
@@ -480,15 +522,15 @@
               </div>
             </div> -->
             <div id="page-4" class="page four">
-              <div class="page_heading">Awards</div>
+              <div class="page_heading">Achievements</div>
               <div class="resume_wrap">
                 <div class="resume_wrap-icon">
                   <ion-icon name="medal-outline"></ion-icon>
                 </div>
                 <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Nobel Award</h4>
-                <span class="position">Physics</span>
+                <span class="date">Winner</span>
+                <h4>SPE IIT(ISM) Energy Revolution 2040</h4>
+                <span class="position">2021</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
@@ -497,9 +539,9 @@
                   <ion-icon name="medal-outline"></ion-icon>
                 </div>
                 <div class="resume_wrap-content">
-                <span class="date">Lorem Ipsum</span>
-                <h4>Nobel Award</h4>
-                <span class="position">Physics</span>
+                <span class="date">Second Runners Up</span>
+                <h4>SME IIT(ISM) Extempore Competition</h4>
+                <span class="position">2022</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
               </div>
@@ -515,44 +557,25 @@
                 </div>
               </div>
             </div>
-        </div>
-      </section>
-      <!-- =========== Contact Section ============ -->
-      <section class="contant section" id="contact">
-        <h2 class="section_title">Contact Details</h2>
-        <div class="contact_container container">
-          <div class="contact_content">
-            <div class="inputs">
-              <input type="text" placeholder="Name">
-              <input type="text" placeholder="Email">
-            </div>
-            <input type="password" placeholder="Password">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-            <a href="#" class="btn">Send Message
-              <ion-icon name="arrow-forward-outline"></ion-icon>
-            </a>
-          </div>
         </div>
       </section>
       <!-- =========== Footer ============ -->
       <footer>
         <div class="footer_bg">
-          <div class="footer_container container">
+          <div class="footer_containerr containerr">
             <div class="main_footer">
               <div class="footer_social">
                 <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
                 <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
                 <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
               </div>
-              <h3>LineCode</h3>
+              <h4>Rijurekh Halder</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </div>
             <div class="footer_copy">&#169; LineCode. All rights reserved</div>
           </div>
         </div>
       </footer>
-
-
 
     </main>
 
@@ -574,89 +597,3 @@
 </html>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Testimonial Temp -->
-
-              <!-- <i class='bx bxs-quote-alt-left'></i>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-              <div class="img_name">
-                <img src="Images/laptop-g6755ce348_640.png" alt="">
-                <span class="name">Linus Torvalds</span>
-                <span class="post">Clients</>
-              </div> -->
-
-          <!-- <div class=" swiper-wrapper">
-            <div class="skills_item swiper-slide prog_lang">
-              <div class="prof_lang skillcont">
-                <img src="Images/Icons/html.svg" alt="" class="sklii">
-              </div>
-            </div>
-            <div class="skills_item swiper-slide libraries">
-              <div class="libraries skillcont"></div>
-            </div>
-            <div class="skills_item swiper-slide frameworks">
-              <div class="frameworks skillcont"></div>
-            </div>
-            <div class="skills_item swiper-slide others">
-              <div class="others skillcont"></div>
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div> -->
