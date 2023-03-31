@@ -214,24 +214,34 @@ header .containerr {
     top: 0;
     background-color: #eee;
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 10vh;
     width: 300px;
     text-align: center;
     transform: translate(110%);
     box-shadow: -10px 0 20px rgba(0,0,0,0.15);
   }
+  .menu_link {
+    color: #333;
+    padding: 0;
+  }
+
+  .active_link {
+    padding: 0;
+  }
+
   .menu.active {
     transform: translate(0);
+    padding: 10vh;
   }
+
   .menu_item {
     display: block;
   }
-  .menu_link {
-    color: #333;
-  }
+
   .toggle_icon {
     display: block;
   }
+
   .close_icon {
     display: block;
   }
